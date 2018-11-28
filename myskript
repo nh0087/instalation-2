@@ -1,0 +1,14 @@
+#!/bin/sh
+echo "skapar Chef"
+sudo useradd -m -k /home/nicklas/Skeleton_dir/ Chef
+sudo passwd Chef
+sudo usermod -G sudo Chef
+
+echo "skapar Svante"
+sudo useradd -m -k /home/nicklas/Skelton_dir/ Svante
+sudo passwd Svante
+
+echo "skapar Staffan"
+sudo useradd -m -k /home/nicklas/Skelton_dir/ Staffan
+sudo passwd Staffan
+
